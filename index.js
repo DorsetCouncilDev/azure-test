@@ -2,7 +2,7 @@ const express = require("express");
 const http = require();
 var app = express();
 
-
+app.use(express.static(path.join(__dirname, 'public')));
 
 var router = express.Router();
 
