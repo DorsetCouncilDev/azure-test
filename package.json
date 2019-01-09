@@ -1,12 +1,20 @@
 {
-    "name": "app-service-hello-world",
-    "description": "Simple Hello World Node.js sample for Azure App Service",
-    "version": "0.0.1",
-    "private": true,
-    "license": "MIT",
-    "author": "Microsoft",
-    "scripts": {
-        "start": "node index.js"
-    }
-    
+  "name": "app-service-hello-world",
+  "description": "Simple Hello World Node.js sample for Azure App Service",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "author": "Microsoft",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DorsetCouncilDev/azure-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DorsetCouncilDev/azure-test/issues"
+  },
+  "homepage": "https://github.com/DorsetCouncilDev/azure-test#readme"
 }
