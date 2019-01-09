@@ -3,7 +3,7 @@ const express = require("express");
 var app = express();
 var router = express.Router();
 
-router.get("/",(req, res) => res.send('Hello World!'));
+router.get("/",function(req, res) { res.send('Hello World!')});
 app.use("/",router);
 
 var port = process.env.PORT || 1337;
