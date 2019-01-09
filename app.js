@@ -1,14 +1,14 @@
 const express = require("express");
 var path = require('path');
-
+var routes = require('./routes/routes');
 var app = express();
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-var router = express.Router();
+
 
 router.get("/",function(req, res) { res.send('Hello World!')});
-app.use("/",router);
+app.use("/",routes);
 
 var port = process.env.PORT || 1337;
 app.listen(port);

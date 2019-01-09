@@ -1,4 +1,4 @@
 var express = require("express");
 
 
-module.exports = router;
+module.exports = routes;
