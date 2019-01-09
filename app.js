@@ -7,7 +7,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 
-router.get("/",function(req, res) { res.send('Hello World!')});
+
 app.use("/",routes);
 
 var port = process.env.PORT || 1337;
